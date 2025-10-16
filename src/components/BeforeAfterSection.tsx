@@ -38,7 +38,7 @@ export function BeforeAfterSection() {
               {/* Quote Text */}
               <div className="flex-1 text-center md:text-left">
                 <p className="text-white text-lg md:text-2xl italic font-light leading-relaxed mb-2">
-                  "Esse foi o primeiro desenho que tive coragem de mostrar para a minha família"
+                  &quot;Esse foi o primeiro desenho que tive coragem de mostrar para a minha família&quot;
                 </p>
                 <p className="text-white text-sm md:text-base">-Thomas Stralotto</p>
               </div>

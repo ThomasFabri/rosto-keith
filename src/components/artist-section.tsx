@@ -27,7 +27,7 @@ export function ArtistSection() {
             {/* Introduction Text */}
             <div className="space-y-4 text-gray-700">
               <p className="italic text-base md:text-lg leading-relaxed">
-                "Sou Keith Nunes, artista e professor, já ajudei milhares de alunos no Brasil e no exterior a destravar
+                &quot;Sou Keith Nunes, artista e professor, já ajudei milhares de alunos no Brasil e no exterior a destravar
                 no desenho e transformar seus traços em realismo.
               </p>
 
@@ -38,7 +38,7 @@ export function ArtistSection() {
 
               {/* Bold Quote */}
               <p className="text-lg md:text-xl font-bold text-gray-600 mt-6 leading-relaxed">
-                Desenhar é método e esse método está ao seu alcance."
+                Desenhar é método e esse método está ao seu alcance.&quot;
               </p>
             </div>
           </div>
