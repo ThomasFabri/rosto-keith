@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function BeforeAfterSection() {
   return (
-    <section className="bg-[#5a5a5a] py-16 px-4 md:py-24">
+    <section className="bg-[#5a5a5a] py-8 px-4 md:py-24">
       <div className="container mx-auto max-w-6xl">
         {/* Heading */}
         <h2 className="text-center text-3xl md:text-5xl font-light text-white mb-12">
@@ -33,8 +33,8 @@ export function BeforeAfterSection() {
           </div>
 
           {/* Testimonial Card - Overlapping */}
-          <div className="relative -mt-16 md:-mt-24 mx-auto max-w-4xl px-4">
-            <div className="bg-[#ff6b35] rounded-lg shadow-2xl flex flex-col md:flex-row items-center gap-6 p-6 md:p-8">
+          <div className="relative -mt-8 md:-mt-24 mx-auto max-w-4xl px-4">
+            <div className="bg-[#ff6b35] rounded-lg shadow-2xl flex flex-col md:flex-row items-center gap-6 p-2 md:px-8">
               {/* Photo with Badge */}
               <div className="hidden md:relative flex-shrink-0 order-1 md:order-2">
                 <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-lg overflow-hidden">
@@ -48,7 +48,7 @@ export function BeforeAfterSection() {
 
               {/* Quote Text */}
               <div className="flex-1 text-center md:text-left order-2 md:order-1">
-                <p className="text-white text-lg md:text-2xl italic font-light leading-relaxed mb-2">
+                <p className="text-white text-sm md:text-2xl italic font-light leading-relaxed">
                   &quot;Esse foi o primeiro desenho que tive coragem de mostrar para a minha família&quot;
                 </p>
                 <p className="text-white text-sm md:text-base">-Thomas Straiotto</p>
