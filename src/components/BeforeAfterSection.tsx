@@ -33,15 +33,15 @@ export function BeforeAfterSection() {
           </div>
 
           {/* Testimonial Card - Overlapping */}
-          <div className="relative -mt-8 md:-mt-24 mx-auto max-w-4xl px-4">
-            <div className="bg-[#ff6b35] rounded-lg shadow-2xl flex flex-col md:flex-row items-center gap-6 p-2 md:px-8">
+          <div className="relative -mt-8 md:-mt-18 mx-auto max-w-4xl px-4">
+            <div className="bg-[#ff6b35] rounded-lg shadow-2xl flex flex-col md:flex-row items-center gap-6 p-2 md:px-4">
               {/* Photo with Badge */}
-              <div className="hidden md:relative flex-shrink-0 order-1 md:order-2">
+              <div className="hidden md:block relative flex-shrink-0 order-1 md:order-2">
                 <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-lg overflow-hidden">
                   <Image src="/Thomas.jpg" alt="Thomas Stralotto" fill className="object-cover" />
                 </div>
                 {/* Badge Icon */}
-                <div className="absolute -bottom-2 -right-2 w-10 h-10 md:w-12 md:h-12">
+                <div className="absolute -bottom-1 -right-4 w-10 h-10 md:w-10 md:h-8">
                   <img src="a.png" alt="" />
                 </div>
               </div>

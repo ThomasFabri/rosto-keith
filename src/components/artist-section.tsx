@@ -16,11 +16,7 @@ export function ArtistSection() {
           <div className="space-y-6">
             {/* Logo and Title */}
             <div className="flex items-center gap-4 mb-8">
-              <svg viewBox="0 0 64 64" className="w-16 h-16 text-[#ff6b35]" fill="currentColor">
-                <path d="M45 15c-3.5 0-6.5 2-8 5-1.5-3-4.5-5-8-5-5 0-9 4-9 9 0 8 17 20 17 20s17-12 17-20c0-5-4-9-9-9z" />
-                <ellipse cx="32" cy="45" rx="18" ry="8" opacity="0.3" />
-                <path d="M20 25l3-8 3 8-3 2zm8 0l3-8 3 8-3 2zm8 0l3-8 3 8-3 2z" />
-              </svg>
+              <img src="b.png" alt="" className="w-25 md:w-30"/>
               <h2 className="text-3xl md:text-4xl font-light text-gray-700 tracking-wide">O ARTISTA</h2>
             </div>
 

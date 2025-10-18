@@ -7,11 +7,11 @@ export function FaqSection() {
         <p className="text-center text-4xl font-bold text-gray-900 pb-12">
           FAQ
         </p>
-        <div className="space-y-12">
+        <div className="space-y-6">
           {/* FAQ Item 1 - Direita */}
           <div className="space-y-3 max-w-xl justify-self-end">
-            <div className="flex items-start justify-end gap-3">
-              <Image src="/e.png" alt="" width={32} height={32} className="mt-1 shrink-0" />
+            <div className="flex justify-end gap-3">
+              <Image src="/e.png" alt="" width={32} height={32} className="" />
               <h3 className="text-xl font-bold text-gray-700 md:text-2xl">
                 Preciso já saber desenhar?
               </h3>

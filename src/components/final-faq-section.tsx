@@ -4,7 +4,7 @@
     return (
       <section className="bg-white py-16 px-4 md:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="space-y-12">
+          <div className="space-y-6">
             {/* FAQ Item 1 */}
             <div className="space-y-3 max-w-xl">
               <div className="flex items-start gap-3">

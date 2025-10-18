@@ -55,7 +55,7 @@ export function ChallengeSection() {
           </div>
 
           {/* Right Image */}
-          <div className="relative">
+          <div className="relative hidden md:block">
             <Image
               src="/2.png"
               alt="Portrait drawing example"
