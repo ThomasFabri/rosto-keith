@@ -12,7 +12,7 @@ export function ChallengeSection() {
             {/* Main description with icon */}
             <div className="flex gap-4 items-start">
               <Image src="/a.png" alt="Badge icon" width={60} height={60} className="flex-shrink-0" />
-              <p className="text-lg md:text-xl italic text-gray-800 leading-relaxed">
+              <p className="text-lg md:text-xl font-semibold text-gray-800 leading-relaxed">
                 Um curso rápido e prático que vai fazer você entender o que realmente sustenta o realismo: as proporções
                 certas.
               </p>
@@ -21,13 +21,13 @@ export function ChallengeSection() {
             {/* Feature list */}
             <div className="space-y-4 pl-2">
               <div className="flex gap-3 items-center">
-                <Image src="/c.png" alt="Results icon" width={32} height={32} className="flex-shrink-0" />
-                <p className="text-gray-600 uppercase tracking-wide text-sm md:text-base">Resultados em 5 dias</p>
+                <Image src="/c.png" alt="Results icon" width={50} height={50} className="flex-shrink-0" />
+                <p className="text-gray-600 uppercase tracking-wide text-sm md:text-xl">Resultados em 5 dias</p>
               </div>
 
               <div className="flex gap-3 items-center">
-                <Image src="/d.png" alt="Beginner icon" width={32} height={32} className="flex-shrink-0" />
-                <p className="text-gray-600 uppercase tracking-wide text-sm md:text-base">
+                <Image src="/d.png" alt="Beginner icon" width={50} height={50} className="flex-shrink-0" />
+                <p className="text-gray-600 uppercase tracking-wide text-sm md:text-xl">
                   100% adaptado para iniciantes
                 </p>
               </div>
@@ -36,7 +36,7 @@ export function ChallengeSection() {
             {/* CTA */}
             <div className="space-y-4 pt-4">
               <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-lg">Clique e comece hoje mesmo</p>
+                <p className="text-gray-600 text-xl font-bold">Clique e comece hoje mesmo</p>
                 <svg
                   className="w-8 h-8 text-gray-600"
                   viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ export function ChallengeSection() {
                 </svg>
               </div>
 
-              <button className="bg-[#ff6b35] hover:bg-[#ff5722] text-white font-bold text-lg md:text-xl px-8 py-4 rounded-lg transition-colors shadow-lg">
+              <button className="bg-[#ff6b35] hover:bg-[#ff5722] text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full transition-colors shadow-lg">
                 Quero desenhar um rosto proporcional
               </button>
             </div>

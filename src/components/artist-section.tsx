@@ -25,19 +25,19 @@ export function ArtistSection() {
             </div>
 
             {/* Introduction Text */}
-            <div className="space-y-4 text-gray-700">
-              <p className="italic text-base md:text-lg leading-relaxed">
+            <div className="space-y-4 text-gray-900 max-w-md">
+              <p className="italic text-base md:text-2xl leading-relaxed">
                 &quot;Sou Keith Nunes, artista e professor, já ajudei milhares de alunos no Brasil e no exterior a destravar
                 no desenho e transformar seus traços em realismo.
               </p>
 
-              <p className="italic text-base md:text-lg leading-relaxed">
+              <p className="italic text-base md:text-2xl leading-relaxed">
                 Criei esse desafio para você que sempre sonhou em desenhar rostos proporcionais, mas acha que não tem
                 dom.
               </p>
 
               {/* Bold Quote */}
-              <p className="text-lg md:text-xl font-bold text-gray-600 mt-6 leading-relaxed">
+              <p className="text-lg md:text-3xl font-bold text-gray-600 mt-6 leading-relaxed">
                 Desenhar é método e esse método está ao seu alcance.&quot;
               </p>
             </div>
