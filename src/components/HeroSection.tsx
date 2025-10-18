@@ -7,7 +7,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/1.png"
+          src="1.png"
           alt="Retrato em preto e branco de perfil"
           fill
           className="object-cover w-full h-full"
