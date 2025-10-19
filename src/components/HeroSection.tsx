@@ -34,12 +34,14 @@ export function HeroSection() {
         </p>
 
         <div className="mt-8">
-          <Button
-            size="lg"
-            className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-6 text-lg font-medium rounded-lg shadow-lg transition-all w-full sm:w-auto"
-          >
-            Começar hoje
-          </Button>
+          <a href="https://pay.hotmart.com/P102174850Y?bid=1760832603385" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-6 text-lg font-medium rounded-lg shadow-lg transition-all w-full sm:w-auto"
+            >
+              Começar hoje
+            </Button>
+          </a>
         </div>
       </div>
     </section>

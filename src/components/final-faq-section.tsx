@@ -42,9 +42,11 @@
 
             {/* CTA Button */}
             <div className="flex justify-center pt-8">
-              <button className="rounded-lg bg-orange-500 px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-orange-600 md:text-xl">
-                Começar hoje
-              </button>
+              <a href="https://pay.hotmart.com/P102174850Y?bid=1760832603385" target="_blank" rel="noopener noreferrer">
+                <button className="rounded-lg bg-orange-500 px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-orange-600 md:text-xl">
+                  Começar hoje
+                </button>
+              </a>
             </div>
           </div>
         </div>

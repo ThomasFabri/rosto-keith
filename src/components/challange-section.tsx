@@ -47,10 +47,11 @@ export function ChallengeSection() {
                   <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
                 </svg>
               </div>
-
-              <button className="bg-[#ff6b35] hover:bg-[#ff5722] text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full transition-colors shadow-lg">
-                Quero desenhar um rosto proporcional
-              </button>
+              <a href="https://pay.hotmart.com/P102174850Y?bid=1760832603385" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#ff6b35] hover:bg-[#ff5722] text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full transition-colors shadow-lg">
+                  Quero desenhar um rosto proporcional
+                </button>
+              </a>
             </div>
           </div>
 
